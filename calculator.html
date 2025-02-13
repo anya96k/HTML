@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4</title>
+</head>
+<body>
+    <input id="text1" type="text">
+    <input id="text2" type="text">
+    <br>
+    <br>
+    <button onclick="add()" id="add">Addition</button>
+    <button onclick="sub()" id="sub">substraction</button>
+    <button onclick="mul()" id="mul">multiplication</button>
+    <button onclick="div()" id="div">division</button>
+    <script>
+       function add(){
+        var a=document.getElementById("text1").value;
+        var b=document.getElementById("text2").value
+        alert("The addition is "+ (parseInt(a)+ parseInt(b)));
+       }
+       function sub(){
+        var a=document.getElementById("text1").value;
+        var b=document.getElementById("text2").value
+        alert("The subtraction is "+ (parseInt(a)-parseInt(b)));
+        
+       }
+       function mul(){
+        var a=document.getElementById("text1").value;
+        var b=document.getElementById("text2").value
+        alert("The multiplication is "+ (parseInt(a)*parseInt(b)));
+       }
+       function div(){
+        var a=document.getElementById("text1").value;
+        var b=document.getElementById("text2").value
+        alert("The division is "+ (parseInt(a)/parseInt(b)));
+       }
+        
+    </script>
+</body>
+</html>
