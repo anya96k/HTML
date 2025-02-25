@@ -1,0 +1,45 @@
+.container {
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 630px;
+    background-color: rgba(126, 57, 0, 0.877);
+    border: 2px solid rgb(0, 0, 0);
+    line-height: 20px;
+    margin-top: 180px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    background-color: rgb(255, 192, 195);
+    font-size: 2.4rem;
+    padding-top: 1rem;
+    border: 2px solid black;
+}
+
+input,
+label {
+    margin-left: 3.5rem;
+    line-height: 30px;
+    width: 70%;
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#filec {
+    margin-left: .2rem;
+    margin-top: 1rem;
+}
+
+#submit {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    background-color: rgb(148, 92, 101);
+    border-radius: 5px;
+    cursor: pointer;
+}
