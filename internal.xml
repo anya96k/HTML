@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE NOTE[
+<!ELEMENT note (to,title,author,year,price)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<note>
+<to>hello</to>
+<title>The Great Gasty</title>
+<author>f.scott fiterzwd</author>
+<year>1925</year>
+<price>10.99</price>
+</note>
+
+
+
